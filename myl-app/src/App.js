@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from '@mui/material/Button';
 
 
 function App() {
@@ -10,6 +11,10 @@ function App() {
           <h>Welcome to MyYearLive</h>
 
         </p>
+        <div>
+          <Button>Get on Google Play</Button>
+          <Button>Get on App Store</Button>
+        </div>
       </header>
     </div>
   );
